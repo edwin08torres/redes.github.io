@@ -1,0 +1,21 @@
+.main .img-top {
+    height: 70%;
+    min-width: 50%;
+    max-width: 65%;
+    width: 100%;
+    top: -100px;
+    left: -300px;
+    border-radius: 100% 0 100% 100%;
+}
+
+.main .img-bottom {
+    /* border: 2px solid red; */
+    height: 55%;
+    min-width: 50%;
+    max-width: 60%;
+    width: 100%;
+    bottom: 0;
+    right: -150px;
+    border-radius: 100% 100% 0% 10%;
+    transform: rotatey(180deg);
+}
