@@ -109,6 +109,9 @@ h6 {
     margin: 0 5%;
 }
 
+.main .article .img-background__picture{
+}
+
 .main .article .img-background__picture .background {   
     width: 100vw;
     height: 20vh;
@@ -119,7 +122,9 @@ h6 {
     width: 7rem;
     height: 7rem;
     top:calc(100% - 300px);
-    left: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #fff;
